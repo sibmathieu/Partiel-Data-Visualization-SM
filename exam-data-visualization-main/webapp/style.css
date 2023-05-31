@@ -1,0 +1,67 @@
+body {
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.app-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b4bb1;
+  padding: 10px;
+  color: #fff;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.top-right-image {
+  position: fixed;
+  top: 150px;
+  right: 20px;
+  width: 200px;
+  height: auto;
+  transform: translateY(-50%);
+}
+
+
+.counter-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #118f4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}

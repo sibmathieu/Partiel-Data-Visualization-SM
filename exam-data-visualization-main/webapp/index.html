@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Mon Application Web Compteur</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-bar">
+        <h1 class="app-title">Mon Application Web</h1>
+    </div>
+    <div class="container">
+        <img src="esme.jpg" alt="Image" class="top-right-image">
+        <h1 class="counter-title">Counter : <span id="counter">0</span></h1>
+        <div class="button-container">
+            <button onclick="increment()">Increase : + </button>
+            <button onclick="decrement()">Decrease : -</button>
+            <button onclick="reset()">Reset : 0</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
